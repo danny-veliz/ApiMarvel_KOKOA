@@ -1,0 +1,63 @@
+body{
+  background-image: url('image/paper.jpg');
+background-repeat: repeat-y;
+background-size: 100%;
+}
+#root {
+  max-width: 100%;
+  /*margin: 0 auto;*/
+  text-align: center;
+ /* Usa el tamaño original */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.divPaper{
+/* Ancho completo 
+background-image: url('image/paper.jpg');
+background-repeat: repeat-y;
+background-size: 100%; Usa el tamaño original */
+margin-top: 40px;
+
+/*padding-bottom: calc((altura_de_la_imagen / ancho_de_la_imagen) * 100%); / Relación de aspecto */
+}
+
+.ComicImage{
+  background-image: url('image/fondoComics.jpg');
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
