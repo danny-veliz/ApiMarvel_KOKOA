@@ -56,7 +56,7 @@ const ComicList: React.FC<ComicListProps> = ({ characterId, onBack }) => {
       <Grid container spacing={4}>
         {comics.map((comic) => (
           <Grid item xs={12} sm={6} md={4} key={comic.id}>
-            <div onClick={() => handleOpen(comic)}>
+            <div onClick={() => {}} role="button" />;
               <ComicCard
                 title={comic.title}
                 format={comic.format || 'Formato no especificado'}
