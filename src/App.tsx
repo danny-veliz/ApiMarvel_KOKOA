@@ -1,6 +1,5 @@
 import { useState } from 'react'
 //import viteLogo from '/vite.svg'
-import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 // Grid version 2
 import Navbar from "./components/Navbar";
