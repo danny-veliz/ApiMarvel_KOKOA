@@ -13,16 +13,6 @@ import './App.css'
 
 function App() {
   const [selectedCharacterId, setSelectedCharacterId] = useState<number | null>(null);
-  const cleanSynopsis = (rawText: string): string => {
-    // Reemplaza etiquetas HTML
-    const textWithoutTags = rawText.replace(/<\/?[^>]+(>|$)/g, "");
-
-    // Decodifica caracteres HTML
-    const parser = new DOMParser();
-    const decodedText = parser.parseFromString(textWithoutTags, "text/html").documentElement.textContent;
-
-    return decodedText || "";
-  };
   return (
     <>
       <Navbar />
