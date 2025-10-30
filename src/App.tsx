@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 // Grid version 2
-import Grid from '@mui/material/Grid2';
 import Navbar from "./components/Navbar";
 import CardPersonaje from "./components/CardPersonaje"
 import ListaCardPersonaje from "./components/ListaCardPersonaje"
